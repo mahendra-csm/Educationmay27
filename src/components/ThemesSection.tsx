@@ -69,7 +69,7 @@ const tracks = [
   {
     icon: Building2,
     title: "Educational Research, Innovation & Inclusion",
-    desc: "Inclusive assessment research, innovation in pedagogy, and equitable learning experience design,
+    desc: "Inclusive assessment research, innovation in pedagogy, and equitable learning experience design",
     color: "#DC2626",
     gradient: "from-red-500 to-rose-500",
   },
