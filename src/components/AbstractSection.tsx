@@ -46,7 +46,7 @@ const AbstractSection = () => {
           </h2>
 
           <p className="text-blue-100/80 text-base md:text-lg max-w-2xl mx-auto leading-relaxed mb-6">
-            Share your research on <strong className="text-white">educational assessment</strong>, <strong className="text-white">evaluation methodologies</strong>, <strong className="text-white">psychometric measurement</strong>, and <strong className="text-white">learning analyticste">learning analytics</strong>. One abstract submission gives you a <strong className="text-white">permanent DOI</strong>, indexing in <strong className="text-white">10+ directories</strong>, and an <strong className="text-white">accredited certificate</strong> all at once.
+            Share your research on <strong className="text-white">educational assessment</strong>, <strong className="text-white">evaluation methodologies</strong>, <strong className="text-white">psychometric measurement</strong>, and <strong className="text-white">learning analytics</strong>. One abstract submission gives you a <strong className="text-white">permanent DOI</strong>, indexing in <strong className="text-white">10+ directories</strong>, and an <strong className="text-white">accredited certificate</strong> all at once.
           </p>
 
           {/* WORLDWIDE banner */}
@@ -62,7 +62,7 @@ const AbstractSection = () => {
                 <div className="text-left">
                   <p className="text-amber-300 text-[10px] sm:text-xs font-bold tracking-widest uppercase">Worldwide Exclusive</p>
                   <p className="text-white text-sm sm:text-base md:text-lg font-extrabold leading-tight">
-                    Take Your Assessment, Evaluation and Educational Measurementcational Measurement Research <span className="text-amber-300">Global</span>
+                    Take Your Assessment, Evaluation and Educational Measurement Research <span className="text-amber-300">Global</span>
                   </p>
                 </div>
                 <span className="text-2xl sm:text-3xl">🏆</span>

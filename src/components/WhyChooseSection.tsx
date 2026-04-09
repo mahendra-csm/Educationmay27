@@ -43,6 +43,12 @@ const WhyChooseSection = () => {
               <div className="p-3 text-left text-gray-400 pl-5">Feature</div>
               <div className="p-3 text-gray-300">Others</div>
               <div className="p-3 text-[#1A56DB] bg-blue-50/50">IC-AEEM</div>
+            </div>
+
+            {features.map((feature, index) => (
+              <motion.div
+                key={feature.name}
+                initial={{ opacity: 0 }}
                 animate={inView ? { opacity: 1 } : {}}
                 transition={{ duration: 0.3, delay: 0.3 + index * 0.05 }}
                 className="grid grid-cols-[1fr_80px_80px] text-center border-b border-gray-50 last:border-0 group hover:bg-blue-50/20 transition-colors"
@@ -106,7 +112,7 @@ const WhyChooseSection = () => {
                 Join IC-AEEM 2026
               </a>
             </motion.div>
-          </div>AEEM
+          </div>
         </div>
       </div>
     </section>
