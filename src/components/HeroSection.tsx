@@ -12,7 +12,7 @@ const CountdownTimer = () => {
   useEffect(() => {
     const tick = () => {
       const now = new Date();
-      const target = new Date(conference.startDate);
+     const target = new Date(Date.now() + 10 * 60 * 1000);
       let diff = target.getTime() - now.getTime();
       if (diff < 0) diff = 0;
 
